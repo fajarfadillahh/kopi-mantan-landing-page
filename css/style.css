@@ -1,0 +1,27 @@
+/* VARIABLES CSS */
+:root {
+  /* Header Height */
+  --header-height: 3rem;
+
+  /* Colors */
+  --first-color: #fca4a6;
+  --first-color-dark: #c1576a;
+  --first-color-darken: #a83e51;
+  --white-color: #fcf8f8;
+
+  /* Font and Typography */
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 2.5rem;
+  --normal-font-size: 0.938rem;
+
+  /* Z-index */
+  --z-fixed: 100;
+}
+
+/* Responsive Font Size In Desktop Version */
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 5rem;
+    --normal-font-size: 1rem;
+  }
+}
